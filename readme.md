@@ -1,0 +1,5 @@
+Combining Conditional Positional Encoding that introduces translation-equivariant bias while still keeping absolute position information[1] and Convolutional stem for vision transformer to give more stability when doing training[2]. The data used in this experiment are chest x-ray images taken from the chest x-ray database[3]. The model was trained using SGD with a momentum of 0.9 and using a batch size of 30.
+
+1. Chu, X., Tian, Z., Zhang, B., Wang, X., Wei, X., Xia, H., & Shen, C. (2021). Conditional positional encodings for vision transformers. arXiv preprint arXiv:2102.10882.
+2. Xiao, T., Singh, M., Mintun, E., Darrell, T., Dollár, P., & Girshick, R. (2021). Early convolutions help transformers see better. Advances in neural information processing systems, 34, 30392-30400.
+3. Tawsifur Rahman, Amith Khandakar, Muhammad A. Kadir, Khandaker R. Islam, Khandaker F. Islam, Zaid B. Mahbub, Mohamed Arselene Ayari, Muhammad E. H. Chowdhury. (2020) "Reliable Tuberculosis Detection using Chest X-ray with Deep Learning, Segmentation and Visualization". IEEE Access, Vol. 8, pp 191586 - 191601. DOI. 10.1109/ACCESS.2020.3031384.
